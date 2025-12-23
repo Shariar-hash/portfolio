@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montasir Majumder Shariar | Portfolio</title>
+    <meta name="description" content="Portfolio of Montasir Majumder Shariar - Web Developer, Student, and Technology Enthusiast">
+    <meta name="keywords" content="Montasir Majumder Shariar, Web Developer, Student, BRAC University, JavaScript Developer, React Developer">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="profile.png">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <h2>Loading...</h2>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">Shariar</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active" data-text="Home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-text="About">About</a></li>
+                <li><a href="#skills" class="nav-link" data-text="Skills">Skills</a></li>
+                <li><a href="#education" class="nav-link" data-text="Education">Education</a></li>
+                <li><a href="#projects" class="nav-link" data-text="Projects">Projects</a></li>
+                <li><a href="#achievements" class="nav-link" data-text="Achievements">Achievements</a></li>
+                <li><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting animate-text">Hi, I am</p>
+                    <h1 class="name animate-text">Montasir Majumder</h1>
+                    <h2 class="highlight-name animate-text">Shariar</h2>
+                    <p class="tagline animate-text">I am a student.</p>
+                    <p class="tagline animate-text">I have Interest in</p>
+                    <div class="typing-container">
+                        <span class="typed-text"></span>
+                        <span class="cursor-blink">|</span>
+                    </div>
+                    <div class="hero-buttons animate-text">
+                        <a href="https://github.com/Shariar-hash" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-github"></i> Visit My GitHub
+                        </a>
+                        <a href="cv.pdf" download class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                    <div class="social-icons animate-text">
+                        <a href="https://github.com/Shariar-hash" target="_blank" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://bd.linkedin.com/in/montasir-majumder-shariar-227a1b22a" target="_blank" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100048866600298" target="_blank" class="social-icon" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/muntasir_shariar" target="_blank" class="social-icon" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:montasirmajumdar123@gmail.com" class="social-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image animate-image">
+                    <div class="image-wrapper">
+                        <div class="image-glow"></div>
+                        <img src="profile.png" alt="Montasir Majumder Shariar" class="profile-img">
+                        <div class="floating-shapes">
+                            <span class="shape shape-1"></span>
+                            <span class="shape shape-2"></span>
+                            <span class="shape shape-3"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                About Me
+                <span class="title-line"></span>
+            </h2>
+            <div class="about-content">
+                <div class="about-image reveal-left">
+                    <div class="about-img-wrapper">
+                        <img src="profile.png" alt="Shariar">
+                        <div class="about-img-border"></div>
+                    </div>
+                </div>
+                <div class="about-text reveal-right">
+                    <p>Hi, I'm <span class="highlight-name-text">Montasir Majumder Shariar</span>, a passionate student with a strong enthusiasm for <span class="highlight-tech">technology</span> and continuous learning. I enjoy exploring the realms of <span class="highlight-web">web development</span>, <span class="highlight-ai">AI</span>, and <span class="highlight-network">computer networks</span>. My goal is to merge creativity with technology to build impactful projects while constantly pushing my boundaries. I thrive on challenges and believe in lifelong learning.</p>
+                    <p>Whether it's developing <span class="highlight-dynamic">dynamic websites</span>, solving complex algorithms, or diving into <span class="highlight-ml">machine learning</span>, I approach every task with dedication and a growth mindset. I'm excited about future opportunities that allow me to expand my knowledge and contribute meaningfully.</p>
+                    <div class="interests">
+                        <h3><i class="fas fa-heart"></i> Interests</h3>
+                        <div class="interest-tags">
+                            <span class="tag">Mathematics</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Computer Networks</span>
+                            <span class="tag">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                Skills
+                <span class="title-line"></span>
+            </h2>
+            <div class="skills-content">
+                <div class="skills-grid">
+                    <div class="skill-card reveal-up" data-delay="0">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="100">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="200">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="300">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Python</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="400">
+                        <div class="skill-icon">
+                            <i class="fab fa-laravel"></i>
+                        </div>
+                        <h3>Laravel</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="500">
+                        <div class="skill-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="600">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square" style="color: #3178c6;"></i>
+                        </div>
+                        <h3>TypeScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="78"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="700">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <h3>Node.js</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="800">
+                        <div class="skill-icon">
+                            <i class="fas fa-bolt" style="color: #3ecf8e;"></i>
+                        </div>
+                        <h3>Supabase</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="900">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-line" style="color: #03ef62;"></i>
+                        </div>
+                        <h3>DataCamp</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal-up" data-delay="1000">
+                        <div class="skill-icon">
+                            <i class="fas fa-database" style="color: #336791;"></i>
+                        </div>
+                        <h3>PostgreSQL</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="72"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                Education
+                <span class="title-line"></span>
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="bracu.png" alt="BRAC University" class="edu-logo">
+                            <div>
+                                <h3>Bachelor in Computer Science and Engineering</h3>
+                                <h4><a href="https://www.bracu.ac.bd/" target="_blank">Brac University</a></h4>
+                            </div>
+                        </div>
+                        <span class="timeline-date">2021 - Present</span>
+                        <p class="grade">CGPA: <span class="highlight">3.78</span></p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="dmrc-logo.png" alt="DMRC" class="edu-logo">
+                            <div>
+                                <h3>Higher Secondary Certificate</h3>
+                                <h4><a href="https://dmrc.edu.bd/" target="_blank">Dr Mahbubur Rahman Mollah College</a></h4>
+                            </div>
+                        </div>
+                        <span class="timeline-date">2017 - 2019</span>
+                        <p class="grade">Grade: <span class="highlight">4.92</span></p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="high-school.jpg" alt="Narayanganj High School" class="edu-logo">
+                            <div>
+                                <h3>Secondary School Certificate</h3>
+                                <h4><a href="https://narayanganjhighschoolandcollege.edu.bd/" target="_blank">Narayanganj High School and College</a></h4>
+                            </div>
+                        </div>
+                        <span class="timeline-date">2015 - 2017</span>
+                        <p class="grade">Grade: <span class="highlight">5.0</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                Projects
+                <span class="title-line"></span>
+            </h2>
+            
+            <!-- Featured Project -->
+            <div class="featured-project reveal-up">
+                <div class="featured-badge">
+                    <i class="fas fa-star"></i> Featured Project
+                </div>
+                <div class="featured-content">
+                    <div class="featured-image">
+                        <img src="bracu-loop.jpg" alt="BRACU Loop">
+                        <div class="featured-overlay">
+                            <a href="https://bracu-loop.vercel.app/" target="_blank" class="overlay-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-info">
+                        <h3>BRACU Loop</h3>
+                        <p>Comprehensive student platform for BRAC University</p>
+                        <ul class="featured-features">
+                            <li><i class="fas fa-check"></i> Faculty reviews and ratings system</li>
+                            <li><i class="fas fa-check"></i> Course notes and study materials library</li>
+                            <li><i class="fas fa-check"></i> Academic resources sharing platform</li>
+                            <li><i class="fas fa-check"></i> Student community and collaboration tools</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Supabase</span>
+                            <span>Vercel</span>
+                        </div>
+                        <div class="featured-links">
+                            <a href="https://bracu-loop.vercel.app/" target="_blank" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Shariar-hash" target="_blank" class="btn btn-outline">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Projects Grid -->
+            <div class="projects-grid">
+                <div class="project-card reveal-up" data-delay="0">
+                    <div class="project-icon">
+                        <img src="petshop.jpg" alt="PetShop">
+                    </div>
+                    <div class="project-content">
+                        <h3>PetShop Platform</h3>
+                        <span class="project-lang"><i class="fab fa-laravel"></i> Laravel</span>
+                        <p>Platform for pet lovers to buy, sell, and adopt pets</p>
+                        <ul>
+                            <li>Secure pet marketplace</li>
+                            <li>Pet adoption services</li>
+                            <li>Lost & found pet reporting</li>
+                            <li>Community features</li>
+                        </ul>
+                        <a href="https://github.com/Shariar-hash" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-up" data-delay="100">
+                    <div class="project-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Daily Checkmate</h3>
+                        <span class="project-lang"><i class="fab fa-js-square"></i> TypeScript</span>
+                        <p>Productivity tool for habit tracking and daily task management</p>
+                        <ul>
+                            <li>Smart todo list</li>
+                            <li>Customizable reminders</li>
+                            <li>Habit tracking</li>
+                            <li>Progress visualization</li>
+                        </ul>
+                        <a href="https://github.com/Shariar-hash/daily_checkmate" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-up" data-delay="200">
+                    <div class="project-icon">
+                        <img src="budget buddy.png" alt="Budget Planner">
+                    </div>
+                    <div class="project-content">
+                        <h3>Budget Planner</h3>
+                        <span class="project-lang"><i class="fab fa-js-square"></i> JavaScript</span>
+                        <p>Financial management tool for expense tracking and budget planning</p>
+                        <ul>
+                            <li>Expense categorization</li>
+                            <li>Savings goals</li>
+                            <li>Interactive graphs</li>
+                            <li>Dark mode & CSV export</li>
+                        </ul>
+                        <a href="https://budget-planner-ochre.vercel.app" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-up" data-delay="300">
+                    <div class="project-icon">
+                        <img src="quizathon-logo.png" alt="Quizathon">
+                    </div>
+                    <div class="project-content">
+                        <h3>Quizathon</h3>
+                        <span class="project-lang"><i class="fab fa-js-square"></i> JavaScript</span>
+                        <p>Interactive quiz platform with personalized learning experiences</p>
+                        <ul>
+                            <li>Multiple quiz categories</li>
+                            <li>Performance tracking</li>
+                            <li>Achievement system</li>
+                            <li>Real-time feedback</li>
+                        </ul>
+                        <a href="https://quizthon.vercel.app/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-up" data-delay="400">
+                    <div class="project-icon">
+                        <i class="fas fa-dharmachakra"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>WheelWise</h3>
+                        <span class="project-lang"><i class="fab fa-js-square"></i> TypeScript</span>
+                        <p>A fair, customizable, multiplayer decision platform</p>
+                        <ul>
+                            <li>Create custom wheels</li>
+                            <li>Real-time multiplayer spins</li>
+                            <li>Classic, elimination & weighted modes</li>
+                            <li>Spin fairness verification</li>
+                        </ul>
+                        <a href="https://github.com/Shariar-hash" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">05.</span>
+                Achievements
+                <span class="title-line"></span>
+            </h2>
+            <div class="achievements-grid">
+                <div class="achievement-card reveal-up" data-delay="0">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Duke of Edinburgh Bronze Award</h3>
+                        <span class="achievement-year">2023</span>
+                        <p>Successfully completed the Duke of Edinburgh's Bronze Award program, demonstrating excellence in:</p>
+                        <ul>
+                            <li><i class="fas fa-running"></i> Physical Recreation: Regular participation in sports and fitness activities</li>
+                            <li><i class="fas fa-lightbulb"></i> Skills Development: Mastered new competencies and personal interests</li>
+                            <li><i class="fas fa-hands-helping"></i> Voluntary Service: Contributed meaningful hours to community service</li>
+                            <li><i class="fas fa-hiking"></i> Adventurous Journey: Completed challenging expeditions and team activities</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal-up" data-delay="100">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Merit-Based Scholarship</h3>
+                        <span class="achievement-year">2024</span>
+                        <p>Awarded a merit-based scholarship for outstanding academic performance at university, recognizing:</p>
+                        <ul>
+                            <li><i class="fas fa-star"></i> Consistent top grades across all semesters</li>
+                            <li><i class="fas fa-project-diagram"></i> Excellence in coursework and projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">06.</span>
+                Get In Touch
+                <span class="title-line"></span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info reveal-left">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:montasirmajumdar123@gmail.com">montasirmajumdar123@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/Shariar-hash" target="_blank">Shariar-hash</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://bd.linkedin.com/in/montasir-majumder-shariar-227a1b22a" target="_blank">Montasir Majumder Shariar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/Shariar-hash" target="_blank" class="contact-social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://bd.linkedin.com/in/montasir-majumder-shariar-227a1b22a" target="_blank" class="contact-social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100048866600298" target="_blank" class="contact-social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/muntasir_shariar" target="_blank" class="contact-social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper reveal-right">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#1a1a2e" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">Shariar</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <p class="footer-text">Building the future, one line of code at a time.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/Shariar-hash" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://bd.linkedin.com/in/montasir-majumder-shariar-227a1b22a" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100048866600298" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/muntasir_shariar" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Montasir Majumder Shariar. All rights reserved.</p>
+                <p class="made-with">Made with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
