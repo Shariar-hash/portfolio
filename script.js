@@ -397,7 +397,7 @@ function initContactForm() {
                 from_email: data.email,
                 subject: data.subject,
                 message: data.message,
-                to_email: 'montasirmajumdar123@gmail.com'
+                to_email: 'montasirshariar@gmail.com'
             });
             
             showNotification('Message sent successfully!', 'success');
@@ -407,7 +407,7 @@ function initContactForm() {
             // Fallback to mailto
             const subject = encodeURIComponent(data.subject);
             const body = encodeURIComponent(`Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`);
-            const mailtoLink = `mailto:montasirmajumdar123@gmail.com?subject=${subject}&body=${body}`;
+            const mailtoLink = `mailto:montasirshariar@gmail.com?subject=${subject}&body=${body}`;
             
             window.open(mailtoLink, '_blank');
             showNotification('Opening email client...', 'info');
@@ -680,4 +680,4 @@ document.addEventListener('keydown', (e) => {
 // ========================================
 console.log('%c👋 Hey there, fellow developer!', 'font-size: 24px; font-weight: bold; color: #8b5cf6;');
 console.log('%cThanks for checking out my portfolio!', 'font-size: 14px; color: #06b6d4;');
-console.log('%cFeel free to reach out: montasirmajumdar123@gmail.com', 'font-size: 12px; color: #a0a0b0;');
+console.log('%cFeel free to reach out: montasirshariar@gmail.com', 'font-size: 12px; color: #a0a0b0;');
