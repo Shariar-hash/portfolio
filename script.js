@@ -373,10 +373,6 @@ function initBackToTop() {
 function initContactForm() {
     const form = document.getElementById('contact-form');
     
-    // Initialize EmailJS with your public key
-    // You need to sign up at https://www.emailjs.com/ and get your keys
-    emailjs.init('YOUR_PUBLIC_KEY'); // Replace with your EmailJS public key
-    
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         
@@ -392,9 +388,8 @@ function initContactForm() {
         const data = Object.fromEntries(formData);
         
         try {
-            // Try EmailJS first
-            // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual EmailJS IDs
-            await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+            // Send email via EmailJS
+            await emailjs.send('service_103pu7h', 'template_ew4f6so', {
                 from_name: data.name,
                 from_email: data.email,
                 subject: data.subject,
