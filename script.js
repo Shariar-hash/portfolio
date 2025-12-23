@@ -373,6 +373,9 @@ function initBackToTop() {
 function initContactForm() {
     const form = document.getElementById('contact-form');
     
+    // Initialize EmailJS with public key
+    emailjs.init('l6u-pMXlgYyXxdumb');
+    
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         
